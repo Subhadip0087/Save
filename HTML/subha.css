@@ -1,0 +1,13 @@
+div{
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    transition: all;
+    transition-duration: 3s;
+    display: flex;
+    justify-content: center;
+}
+div:hover{
+    background-color: rgb(255, 0, 0);
+    
+}

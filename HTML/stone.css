@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+h1{
+    background-color: rgba(3, 3, 60, 0.941);
+    color: rgb(247, 250, 250);
+    padding: 10px;
+}
+.choice{
+    height: 200px;
+    
+}
+#rock:hover{
+    opacity: .5;
+    cursor: pointer;
+}
+#paper:hover{
+    opacity: .5;
+    cursor: pointer;
+}
+#scissors:hover{
+    opacity: .5;
+     cursor: pointer;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+    border-radius: 360px;
+    object-fit: cover;
+}
+    
+
+.choice{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin-top: 20px;
+}
+
+
+
+

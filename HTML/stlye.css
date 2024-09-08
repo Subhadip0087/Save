@@ -1,0 +1,37 @@
+h1{
+    text-align:center;
+}
+
+.red{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgb(255, 1, 1);
+    padding: 50px;
+    margin: 30px;
+    background-image: url("subha.jpg");
+    background-size: cover;
+}
+.orange{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgb(255, 149, 1);
+    padding: 50px;
+    margin: 30px;
+}
+.green{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: rgb(22, 255, 1);
+    padding: 50px;
+    margin: 30px;
+    /* display: none; */
+    /* visibility: hidden; */
+}
+div{
+    height: 700px;
+    width: 250px;
+    background-color: black;
+}

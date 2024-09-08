@@ -1,0 +1,22 @@
+.loading{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 20px solid rgb(3, 3, 253);
+    border-left: 20px solid rgb(248, 2, 2);
+    
+    position: absolute;
+    top: 200px;
+    left: 500px;
+    animation-name: subha;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+@keyframes subha{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+       transform: rotate(360deg);
+    }
+}
